@@ -13,7 +13,6 @@ function Dados (n){
      count.splice(b,1,d)
 
     }
-    
     let minhaBarra2  = document.querySelector('.dois')
     let minhaBarra3  = document.querySelector('.tres')
     let minhaBarra4  = document.querySelector('.quatro')
@@ -36,7 +35,9 @@ function Dados (n){
     minhaBarra10.style.width = `${count[8]*5}px`
     minhaBarra11.style.width = `${count[9]*5}px`
 
-    
+    let valores = document.querySelector('h2')
+
+    valores.innerText = `2: ${count[0]}\n3: ${count[1]}\n4: ${count[2]}\n5: ${count[3]}\n6: ${count[4]}\n7: ${count[5]}\n8: ${count[6]}\n9: ${count[7]}\n10: ${count[8]}\n11: ${count[9]}\n12: ${count[10]}`
 }
 console.log(Dados(1000))
 

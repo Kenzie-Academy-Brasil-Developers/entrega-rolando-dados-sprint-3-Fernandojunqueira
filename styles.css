@@ -3,6 +3,15 @@ h1{
     width: 1100px;
     margin: 15px auto;
 }
+h2{
+    font-weight: 600;
+    padding-left: 28px;
+    font-size: 15px;
+    line-height: 49px;
+}
+.main{
+    display: flex;
+}
 ul{
     border: solid 1px gray;
     border-radius: 5px;
