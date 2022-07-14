@@ -1,0 +1,30 @@
+h1{
+    text-align: center;
+    width: 1100px;
+    margin: 15px auto;
+}
+ul{
+    border: solid 1px gray;
+    border-radius: 5px;
+    background-color: rgba(201, 201, 201, 0.74);
+    width: 1100px;
+    margin: 0 auto;
+}
+li{
+    height: 50px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    
+}
+
+.barra{
+    height: 80%;
+    width: 50px;
+    background-color: rgb(44 235 21);
+    margin-left: 15px;
+}
+
+.tres .dois .quatro .cinco .seis .sete .oito .nove .dez .onze{
+   
+}
